@@ -1,0 +1,8 @@
+/* main with parematers */
+int main(int a, int b){
+    int x, y = 7;
+    printInt(x);
+    return 10;
+    printInt(y);
+    return 0 ;
+}

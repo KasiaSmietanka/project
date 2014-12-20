@@ -16,7 +16,7 @@ public class ComposVisitor<A> implements
   Latte.Absyn.MulOp.Visitor<Latte.Absyn.MulOp,A>,
   Latte.Absyn.RelOp.Visitor<Latte.Absyn.RelOp,A>
 {
-/* Program */
+/* Latte.Program */
     public Program visit(Latte.Absyn.Prog p, A arg)
     {
       ListTopDef listtopdef_ = new ListTopDef();

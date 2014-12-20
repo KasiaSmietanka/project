@@ -5,8 +5,6 @@
 
 package Latte;
 
-import java_cup.runtime.XMLElement;
-
 /** CUP v0.11b 20140808 (SVN rev 54) generated parser.
   */
 @SuppressWarnings({"rawtypes"})
@@ -378,7 +376,7 @@ class CUP$parser$actions {
       switch (CUP$parser$act_num)
         {
           /*. . . . . . . . . . . . . . . . . . . .*/
-          case 0: // $START ::= Program EOF 
+          case 0: // $START ::= Latte.Program EOF
             {
               Object RESULT =null;
 		int start_valleft = ((java_cup.runtime.Symbol)CUP$parser$stack.elementAt(CUP$parser$top-1)).left;
@@ -392,14 +390,14 @@ class CUP$parser$actions {
           return CUP$parser$result;
 
           /*. . . . . . . . . . . . . . . . . . . .*/
-          case 1: // Program ::= ListTopDef 
+          case 1: // Latte.Program ::= ListTopDef
             {
               Latte.Absyn.Program RESULT =null;
 		int p_1left = ((java_cup.runtime.Symbol)CUP$parser$stack.peek()).left;
 		int p_1right = ((java_cup.runtime.Symbol)CUP$parser$stack.peek()).right;
 		Latte.Absyn.ListTopDef p_1 = (Latte.Absyn.ListTopDef)((java_cup.runtime.Symbol) CUP$parser$stack.peek()).value;
 		 RESULT = new Latte.Absyn.Prog(p_1); 
-              CUP$parser$result = parser.getSymbolFactory().newSymbol("Program",0, ((java_cup.runtime.Symbol)CUP$parser$stack.peek()), ((java_cup.runtime.Symbol)CUP$parser$stack.peek()), RESULT);
+              CUP$parser$result = parser.getSymbolFactory().newSymbol("Latte/Program",0, ((java_cup.runtime.Symbol)CUP$parser$stack.peek()), ((java_cup.runtime.Symbol)CUP$parser$stack.peek()), RESULT);
             }
           return CUP$parser$result;
 

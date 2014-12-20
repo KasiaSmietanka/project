@@ -1,0 +1,10 @@
+/*multiple main definitions - not unique function's name*/
+int main(){
+    return 0 ;
+}
+
+int main(){
+    int x, y = 7;
+    return 10 ;
+}
+

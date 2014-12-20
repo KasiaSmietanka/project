@@ -2,7 +2,7 @@ package Latte;
 import Latte.Absyn.*;
 /** BNFC-Generated Abstract Visitor */
 public class AbstractVisitor<R,A> implements AllVisitor<R,A> {
-/* Program */
+/* Latte.Program */
     public R visit(Latte.Absyn.Prog p, A arg) { return visitDefault(p, arg); }
     public R visitDefault(Latte.Absyn.Program p, A arg) {
       throw new IllegalArgumentException(this.getClass().getName() + ": " + p);

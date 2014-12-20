@@ -1,0 +1,7 @@
+/* return value different than 0*/
+int main(){
+    int x, y = 7;
+    printInt(x);
+    printInt(y);
+    return 10 ;
+}

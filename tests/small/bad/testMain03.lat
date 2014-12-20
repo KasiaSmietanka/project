@@ -1,0 +1,6 @@
+/*no return statement*/
+int main(){
+    int x, y = 7;
+    printInt(x);
+    printInt(y);
+}

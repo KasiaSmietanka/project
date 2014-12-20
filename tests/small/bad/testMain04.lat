@@ -1,0 +1,8 @@
+/*different return type - wrong*/
+string main(){
+    int x, y = 7;
+    printInt(x);
+    return 10;
+    printInt(y);
+    return 0 ;
+}
